@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(fundo4.jpg);
+    background-repeat:no-repeat;
+    background-size: 1280px 1280px;
+    color:white;
+}
+
+/* Estilos do cabeçalho */
+header {
+    
+    color:whitesmoke;
+    /*valores superior e inferior, seguido de valores da direita e esquerda.*/
+    padding: 20px 0;
+    text-align: center;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+/* Estilos das seções */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    /*margin inferior*/
+    margin-bottom: 20px;
+}
+
+/* Estilos das receitas */
+.receita {
+    
+    
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.receita 
+
+
+h2{
+    color:rgb(158, 151, 88);
+    text-align: center;
+
+}
+p{
+    color: whitesmoke;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    /* Estilos responsivos aqui */
+}
+
+@media screen and (min-width: 769px) {
+    /* Estilos responsivos aqui */
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin:auto;
+    display:block;
+    
+    
+}
